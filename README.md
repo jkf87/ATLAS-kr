@@ -41,7 +41,7 @@ Our project includes two types of datasets, catering to different needs and rese
 
 예시
 
-```
+```json
 {
 "instruction": "만약 당신이 전문 경제학자라면 어떻게 대답하겠습니까? 자본주의 경제 시스템과 사회주의 경제 시스템의 주요 차이점은 무엇인가요?",
 "output": "전문 경제학자로서 저는 자본주의 경제 시스템과 사회주의 경제 시스템의 주요 차이점을 몇 가지 차원에서 설명하겠습니다..."
