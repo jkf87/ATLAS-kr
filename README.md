@@ -32,6 +32,20 @@ Our project includes two types of datasets, catering to different needs and rese
 12.5만 개의 데이터 포인트로 구성된 데이터 세트는 LLM 프롬프트 원칙에 대한 연구를 지원합니다. 데이터는 [`26가지 원칙`](./data/README.md)의 이해와 적용을 용이하게 하기 위해 큐레이션되었습니다. 
 이 프로젝트에는 서로 다른 요구와 연구 초점을 충족하는 두 가지 유형의 데이터 세트가 포함되어 있습니다:
 
+         1. **General Dataset (`general_dataset.json`)**: This comprehensive dataset combines all the examples from each of the 26 principles into a single file, offering a holistic view of our research and its diverse applications.
+   
+      - File: [`general_dataset.json`](./data/general_dataset.json)
+      - Structure:
+        - Each entry contains an `instruction` field describing the task.
+        - The `output` field provides the model-generated response to the instruction.
+   
+      Example:
+      ```json
+      {
+       "instruction": "If you were an expert economist, how would you answer: What are the key differences between a capitalist and a socialist economic system?",
+       "output": "As an expert economist, I would describe the key differences between capitalist and socialist economic systems along several dimensions:..."
+      }
+      
       1. **일반 데이터 세트(`general_dataset.json`)**: 이 종합 데이터 세트는 26가지 원칙 각각에 대한 모든 사례를 하나의 파일로 결합하여 연구와 그 다양한 응용에 대한 전체적인 관점을 제공합니다.
    
       - 파일: [`general_dataset.json`](./data/general_dataset.json)
@@ -45,7 +59,7 @@ Our project includes two types of datasets, catering to different needs and rese
        "instruction": "만약 당신이 전문 경제학자라면 어떻게 대답하겠습니까? 자본주의 경제 시스템과 사회주의 경제 시스템의 주요 차이점은 무엇인가요?",
        "output": "전문 경제학자로서 저는 자본주의 경제 시스템과 사회주의 경제 시스템의 주요 차이점을 몇 가지 차원에서 설명하겠습니다..."
       }
-      ```
+     
 
    2. **개별 원칙 데이터 세트(`principle_{i}.json`)**: 보다 집중적인 연구를 위해 26가지 원칙 각각에 대해 별도의 데이터 세트를 제공합니다. 이 파일을 통해 연구자들은 특정 원칙의 데이터를 개별적으로 탐색하고 분석할 수 있습니다.
    
