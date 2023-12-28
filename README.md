@@ -9,6 +9,7 @@
 # ATLAS: An LLM Inquiry Principle Benchmark
 
 This repository contains resources and research on formulating effective queries and prompts for large language models (LLMs). The primary contribution is the introduction of 26 guiding principles aimed at optimizing interactions with LLMs of various scales, such as LLaMA-1/2, GPT-3.5, and GPT-4.
+
 이 리포지토리에는 대규모 언어 모델(LLM)을 위한 효과적인 쿼리와 프롬프트를 구성하는 데 관한 리소스와 연구가 포함되어 있습니다. 주요 내용은 LLaMA-1/2, GPT-3.5, GPT-4 등 다양한 규모의 LLM과의 상호 작용을 최적화하기 위한 26가지 지침 원칙을 소개하는 것입니다.
 
 [//]: # (![demo]&#40;assest/demo.png | width=100&#41;)
