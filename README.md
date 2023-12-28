@@ -18,6 +18,7 @@ This repository contains resources and research on formulating effective queries
 ## Overview
 
 Our work aims to simplify the underlying concepts of formulating questions for different scales of large language models. By examining their abilities and enhancing user comprehension, we focus on optimizing the design of instructions and prompts. Extensive experiments conducted on models like LLaMA-1/2 and GPT-3.5/4 have verified the effectiveness of the proposed principles. 
+
 우리의 작업은 다양한 규모의 대규모 언어 모델에 대한 질문을 구성하는 기본 개념을 단순화하는 것을 목표로 합니다. 사용자의 능력을 조사하고 사용자의 이해도를 향상시킴으로써 지침과 프롬프트의 디자인을 최적화하는 데 중점을 둡니다. LLaMA-1/2 및 GPT-3.5/4와 같은 모델에 대한 광범위한 실험을 통해 제안된 원칙의 효과를 검증했습니다. 
 
 [//]: # (![distribution]&#40;assets/distribution.png | width=100&#41;)
